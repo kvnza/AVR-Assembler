@@ -11,7 +11,7 @@ Not intended for assembling actual instructions, moreso, for understanding how A
   - SUB (subtraction)
   - NEG (negation - two's complement)
 
-### A command-line interface for ease-of-use.
+#### A command-line interface for ease-of-use.
 Designed to be used via your system's command-line interface. Commands inclue:
   - 'help' : Provides the user with a list of valid commands.
   - 'assemble [file]' : Assembles a '.asm' file to the same directory.
