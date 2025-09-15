@@ -1,8 +1,9 @@
-package assembler;
+package core;
 
-import assembler.utilities.BinaryConverter;
-import assembler.utilities.StringUtilities;
+import core.utilities.BinaryConverter;
+import core.utilities.StringUtilities;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -36,11 +37,11 @@ public final class Assembler {
      *
      * @return The machine code that the fileContent assembles into.
      */
-    public String assemble() {
-        String assembled = "";
+    public List<String> assemble() {
+        List<String> assembled = new ArrayList<>();
 
         for (String line: fileContent) {
-            assembled += build(line);
+            assembled.add(build(line));
         }
 
         return assembled;
