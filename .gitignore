@@ -29,7 +29,7 @@ bin/
 .DS_Store
 
 ## Other ##
-.idea/
+/.idea/
 JAVR.iml
-testresources/
-test/
+/testresources/
+/test/

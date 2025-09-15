@@ -1,3 +1,8 @@
+package assembler;
+
+import assembler.utilities.BinaryConverter;
+import assembler.utilities.StringUtilities;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -35,7 +40,7 @@ public final class Assembler {
         String assembled = "";
 
         for (String line: fileContent) {
-            assembled += build(line) + "\n";
+            assembled += build(line);
         }
 
         return assembled;

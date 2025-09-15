@@ -1,3 +1,5 @@
+package assembler.utilities;
+
 /**
  * Utilities class that provides some extra functionality for strings that is required for the
  * assembler.

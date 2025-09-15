@@ -1,3 +1,5 @@
+package assembler.utilities;
+
 /**
  * A utility class used to convert decimal, hex, and octal values to binary representations.
  */
