@@ -30,6 +30,6 @@ bin/
 
 ## Other ##
 /.idea/
-JAVR.iml
 /testresources/
 /test/
+JAssembler.iml
